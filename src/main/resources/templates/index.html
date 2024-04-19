@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title th:text="${appName}">Home</title>
+    <link rel="stylesheet" type="text/css" href="/nav.css">
 </head>
 <body>
-    <nav id="navbar"></nav>
+    <nav id="navbar" class="clearfix">
+        <div class="alignLeft">
+            <h3>American Riichi Mahjong League</h3>
+        </div>
+
+        <div class="alignRight">
+            <form id="search-player">
+                <label>
+                    <input type="text" placeholder="Enter a name...">
+                </label>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+    </nav>
 <!--  <h1>Hello!</h1>-->
 <!--  <p>Welcome to <span th:text="${appName}">My App</span></p>-->
 <!--  <a href="./search.html">search</a>-->

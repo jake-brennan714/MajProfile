@@ -1,0 +1,35 @@
+#navbar {
+    background-color: #819fb8;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    height: max-content;
+    top: 50%;
+    /*padding: 1em 0;*/
+}
+
+#navbar .alignLeft {
+    background: inherit;
+    /*margin-left: auto;*/
+    float: left;
+    padding: 10px;
+    height: inherit;
+    top: 0;
+    bottom: 0;
+}
+
+#navbar .alignRight {
+    /*margin-right: auto;*/
+    background: inherit;
+    float: right;
+    padding: 10px;
+    /*align-items:center;*/
+    /*top: 50%;*/
+    height: inherit;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

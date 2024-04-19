@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "include": [
+      "src/main/resources/templates/*.html",
+      "src/main/resources/static/*.css"
+    ],
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "jsx": "react-jsx"
+  }
+}
